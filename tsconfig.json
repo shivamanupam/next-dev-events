@@ -28,7 +28,10 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-  ],
+    "**/*.mts",
+    "lib/withAuth.ts",
+    "lib/db.ts",
+    "lib/getUserFromToken.ts"
+, "app/(root)/page.tsx", "app/layout.tsx"  ],
   "exclude": ["node_modules"]
 }
